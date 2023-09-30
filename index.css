@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+}
+
+header {
+  background-color: #4f4d53;
+  height: 48px;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-banner {
+  background: url("media/img_hero.jpg") center/cover;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+  padding-left: 24%;
+}
+
+.body-text {
+  text-align: left;
+  padding: 0 20%;
+  padding-bottom: 40px;
+}
+
+h1 {
+  font-family: "Roboto Black";
+  font-weight: 900;
+  font-size: 100px;
+  color: #4f4d53;
+}
+
+h2 {
+  font-family: "Roboto Black";
+  font-weight: 900;
+  font-size: 64px;
+  color: #e8be02;
+}
+
+p {
+  font-size: 12px;
+  font-family: "Roboto Black";
+  font-weight: 400;
+  font-size: 20px;
+  color: #4f4d53;
+}
+
+footer {
+  background-color: #4f4d53;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  border-top: 10px solid #e8be02;
+}
+
+.footer-options {
+  display: flex;
+  justify-content: space-around;
+}
+
+.option {
+  flex: 1;
+  padding: 10px;
+}
+
+.option h3 {
+  margin-bottom: 10px;
+  font-family: "Roboto Black";
+  font-weight: 900;
+  font-size: 20px;
+  color: #e8be02;
+}
+
+.option h4 {
+  font-family: "Roboto Regular";
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+  margin: 5px;
+}
+
+.option h4:nth-child(4) {
+  margin-bottom: 25px;
+}
